@@ -1,4 +1,5 @@
 def main():
+    """ Check the validity of password """
     min_length = 8
     password = get_password()
     while len(password) < min_length:
@@ -9,11 +10,13 @@ def main():
 
 
 def get_password():
+    """ Get password """
     password = input("Enter password: ")
     return password
 
 
 def print_asterisks(password):
+    """ Print in asterisks """
     print('*' * len(password))
 
 
