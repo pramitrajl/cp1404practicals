@@ -1,3 +1,4 @@
+""" Do from scratch exercises - Menu """
 menu = """ Menu:
 (G)et a valid score
 (P)rint result
@@ -5,6 +6,7 @@ menu = """ Menu:
 (Q)uit"""
 
 def main():
+    """ Display menu and do tasks according the input """
     score = 0
     print(menu)
     choice = input("Enter your choice: ").upper()
@@ -23,6 +25,7 @@ def main():
     print("Farewell")
 
 def get_valid_score(prompt, low, high):
+    """ Get valid score """
     marks = int(input(prompt))
     while marks < low or marks > high:
         print("Invalid score")
@@ -30,11 +33,13 @@ def get_valid_score(prompt, low, high):
     return marks
 
 def show_stars(score):
+    """Show stars according to score """
     for i in range (score):
         print("*", end='')
         print()
 
 def get_score_result(score):
+    """ Get result from the score """
     """ Determine result """
     if score < 0 or score > 100:
         return "Invalid score"
