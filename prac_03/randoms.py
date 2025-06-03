@@ -1,3 +1,6 @@
+""" CP1404/CP5632 - Practical
+ """
+
 # What did you see on line 1? What was the smallest number you could have seen, what was the largest?
 # --- I saw a single integer value i.e "7". Smallest number could be 5 and largest could be 20.
 
