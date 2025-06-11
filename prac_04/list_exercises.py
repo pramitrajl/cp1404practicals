@@ -11,4 +11,10 @@ print(f"The smallest number is {min(list_of_numbers)}")
 print(f"The largest number is {max(list_of_numbers)}")
 print(f"The average of numbers is {sum(list_of_numbers)/len(list_of_numbers)}")
 
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn',
+             'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+name = input("Enter username:")
+while name in usernames:
+    print("Access granted ")
+print("Access denied")
 
