@@ -12,7 +12,7 @@ COLOR_TO_CODE = {
     "CAMEL": "c196ab",
     "CHOCOLATE": "d2691e",
     "MANGO": "fdbe02",
-    "MINT": "3eb489",
+    "MINT": "3eb489"
 }
 print(COLOR_TO_CODE)
 color_name = input("Enter color name: ").upper()
