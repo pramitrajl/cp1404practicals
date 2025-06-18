@@ -1,6 +1,6 @@
 """ Word Occurrences
-Estimate:
-Actual:
+Estimate: 15 mins
+Actual: 26 mins
 """
 text = input("Enter text: ")
 word_to_wordcount = {}
