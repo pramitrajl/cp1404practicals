@@ -10,8 +10,9 @@ for word in words:
         word_to_wordcount[word] += 1
     else:
         word_to_wordcount[word] = 1
-
+max_width = max(len(word) for word in words)
 for word in sorted(word_to_wordcount):
-    print(f"{word} : {word_to_wordcount[word]}")
+
+    print(f"{word:{max_width}} : {word_to_wordcount[word]}")
 
 
