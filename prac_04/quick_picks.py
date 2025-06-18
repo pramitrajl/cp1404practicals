@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical
-Quick Pick" Lottery Ticket Generator
+Quick Pick Lottery Ticket Generator
 """
 import random
 MIN_NUM = 1
