@@ -7,10 +7,14 @@ This is why we name our folders with no spaces or capitals, as valid module name
 from prac_06.car import Car
 
 limo = Car("Limo", 100)
+
 limo.add_fuel(20)
+
 print(f"Fuel after refuel: {limo.fuel}")
+
 limo.drive(115)
 print(limo)
+
 def main():
     """Demo test code to show how to use car class."""
     my_car = Car("MyCar", 180)
