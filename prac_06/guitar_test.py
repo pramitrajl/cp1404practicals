@@ -5,6 +5,7 @@ from guitar import Guitar
 CURRENT_YEAR = 2025
 
 # def test():
+""" Test code for the program"""
 #
 #
 #     gibson = Guitar("Gibson L-5 CES", 1925, 16035.40)
@@ -22,6 +23,7 @@ CURRENT_YEAR = 2025
 # test()
 
 def main():
+    """ Actual function to get the data and print it """
     guitars = []
     print("My guitars!")
     name = input("Name: ")
@@ -40,10 +42,8 @@ def main():
 
     while guitars:
         print("These are my guitars: ")
-        i= 1
-        for guitar in guitars:
+        for i, guitar in enumerate(guitars, 1):
             vintage_string = "vintage" if guitar.is_vintage() else ""
-            print(f"Guitar {i}: {guitar.name:>20} ({guitar.year}), worth {guitar.cost:7,.2f} {vintage_string} ")
-            i+=1
+            print(f"Guitar {i}: {guitar.name:>20} ({guitar.year}), worth {guitar.cost:7,.2f}{vintage_string} ")
 
 main()
