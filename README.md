@@ -16,5 +16,6 @@ I'm  Pramit. I'm currently studying Bachelor of Information Technology in JCUB. 
 
 ## Useful Links
 
-- [CP1404 practicals instruction] (https://github.com/CP1404)
-- [My github profile] (https://github.com/pramitrajl)
+- [CP1404 Practicals Instructions](https://github.com/CP1404)
+- [My GitHub Profile](https://github.com/pramitrajl)
+
