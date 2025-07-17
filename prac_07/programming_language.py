@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical - Suggested Solution
-Programming Language class with tests
+Programming Language class with tests.
 """
 
 
