@@ -15,8 +15,8 @@ def main():
     print(MENU)
     choice = input(">>>").upper()
     while choice != "Q":
-        """if choice == "L":
-            load_project() """
+        if choice == "L":
+            load_project()
         """elif choice == "S":
             save_project()"""
         """elif choice == "D":
@@ -30,6 +30,7 @@ def main():
         """else:
             print("Invalid")
             choice = input(">>>").upper()"""
+        choice = input(">>> ").upper()
 
 def load_project():
     projects = []
@@ -39,8 +40,17 @@ def load_project():
             parts = line.strip().split('\t')
             project = Project(parts[0],parts[1],parts[2],parts[3],parts[4])
             projects.append(project)
-        projects.sort()
-        for project in projects:
+    print("Incomplete projects:")
+    projects.sort()
+    for project in projects:
+        if project.completion_percent < 100:
             print(project)
 
-load_project()
+    print("Complete projects:")
+    for project in projects:
+        if project.completion_percent == 100:
+            print(project)
+
+
+
+main()
