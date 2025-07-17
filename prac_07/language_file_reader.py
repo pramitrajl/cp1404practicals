@@ -28,8 +28,8 @@ def main():
         reflection = parts[2] == "Yes"
         # Construct a ProgrammingLanguage object using the elements
         # year should be an int
-        arithmetic = parts[4] == "Yes"
-        language = ProgrammingLanguage(parts[0], parts[1], reflection, int(parts[3]), arithmetic)
+        arithmetic = parts[4] == "Yes" #"""Changes made"""
+        language = ProgrammingLanguage(parts[0], parts[1], reflection, int(parts[3]), arithmetic) #"""Changes made"""
         # Add the language we've just constructed to the list
         languages.append(language)
     # Close the file as soon as we've finished reading it
