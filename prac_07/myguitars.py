@@ -1,3 +1,5 @@
+""" Estimated: 30 mins
+Actual : 45 mins """
 from guitar import Guitar
 
 FILENAME = "guitars.csv"
